@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>Confluence</ShortName>
+    <Description>Atlassian Confluence Search Provider</Description>
+    <Image height="16" width="16" type="image/x-icon">https://shippo.atlassian.net/wiki/images/logo/confluence_48_white.png</Image>
+    <Image height="64" width="64" type="image/png">https://shippo.atlassian.net/wiki/images/logo/confluence_128_white.png</Image>
+    <Url type="text/html" template="https://shippo.atlassian.net/wiki/search?text={searchTerms}"/>
+    <Query role="example" searchTerms="Confluence"/>
+    <InputEncoding>UTF-8</InputEncoding>
+    <moz:SearchForm>https://shippo.atlassian.net/wiki/searchsite.action</moz:SearchForm>
+</OpenSearchDescription>
